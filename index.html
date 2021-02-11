@@ -5,10 +5,274 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Nerds</title>
+	<link type="image/x-icon" rel="shortcut icon" href="images/icons/favicon.ico">
+	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	
+	<header class="header">
+		<nav class="header__nav">
+			<a class="logo">
+				<img class="logo__img" src="images/logo.svg" width="160" height="65" alt="логотип">
+			</a>
+			<ul class="site-nav">
+				<li class="site-nav__item site-nav__item-current">
+					<a class="site-nav__link">
+						Студия
+					</a>
+				</li>
+				<li class="site-nav__item">
+					<a class="site-nav__link" href="#">
+						Клиенты
+					</a>
+				</li>
+				<li class="site-nav__item">
+					<a class="site-nav__link" href="#">
+						Магазин
+					</a>
+				</li>
+				<li class="site-nav__item">
+					<a class="site-nav__link" href="#">
+						Контакты
+					</a>
+				</li>
+			</ul>
+			<ul class="user-nav">
+				<li class="user-nav__item">
+					<a class="user-nav__link" href="#">
+						Корзина
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<h1 class="visually-hidden">Дизайн-студия</h1>
+		<section class="slider">
+			<h2 class="visually-hidden">Рекламные слайды</h2>
+			<ul class="slider__list">
+				<li class="slider__item">
+					<b class="slider__item-slogan">
+						Долго, дорого, 
+						скрупулезно.
+					</b>
+					<p class="slider__item-text">
+						Математически выверенный дизайн 
+						для вашего сайта или мобильного приложения.
+					</p>
+					<a class="btn" href="#">Узнать больше</a>
+				</li>
+				<li class="slider__item">
+					<b class="slider__item-slogan">
+						Любим математику
+						как никто другой
+					</b>
+					<p class="slider__item-text">
+						Никакого креатива, только математические формулы 
+						для расчета идеальных пропорций.
+					</p>
+					<a class="btn" href="#">Узнать больше</a>
+				</li>
+				<li class="slider__item">
+					<b class="slider__item-slogan">
+						Только ночь,
+						только хардкор
+					</b>
+					<p class="slider__item-text">
+						Работать днем, как все? Мы против этого.
+						Ближе к полуночи работа только начинается.
+					</p>
+					<a class="btn" href="#">Узнать больше</a>
+				</li>
+			</ul>
+		</section>
+
+		<section class="services">
+			<h2 class="visually-hidden">Услуги</h2>
+			<ul class="services__list">
+				<li class="services__item">
+					<h3 class="services__item-title">
+						Веб-сайты
+					</h3>
+					<p class="services__item-text">
+						Мир никогда не будет прежним 
+						после того как увидит ваш сайт!
+					</p>
+					<a class="services__item-img-box" href="#">
+						<img class="services__item-img" src="images/services-img-1.png" width="300" height="146" alt="веб-сайт">
+					</a>
+					<a class="btn" href="#">Заказать</a>
+				</li>
+				<li class="services__item">
+					<h3 class="services__item-title">
+						Приложения
+					</h3>
+					<p class="services__item-text">
+						Покорите топ-10 приложений в 
+						AppStore и Google Play
+					</p>
+					<a class="services__item-img-box" href="#">
+						<img class="services__item-img" src="images/services-img-2.png" width="300" height="146" alt="приложения">
+					</a>
+					<a class="btn" href="#">Заказать</a>
+				</li>
+				<li class="services__item">
+					<h3 class="services__item-title">
+						Презентации
+					</h3>
+					<p class="services__item-text">
+						Вы даже не подозреваете, 
+						насколько вы изумительны!
+					</p>
+					<a class="services__item-img-box" href="#">
+						<img class="services__item-img" src="images/services-img-3.png" width="300" height="146" alt="презентация">
+					</a>
+					<a class="btn" href="#">Заказать</a>
+				</li>
+			</ul>
+		</section>
+
+		<section class="about">
+			<h2 class="visually-hidden">О нас</h2>
+			<b class="about__slogan">
+				Мы — маленькая, но гордая
+				дизайн-студия из Краснодара. 
+			</b>
+			<p class="about__text">
+				Исповедуем принципы минимализма и чистоты. Ставим математический расчет
+				превыше креатива. Работаем не покладая рук, как роботы.
+			</p>
+			<h3 class="about__title">Выполняем заказы на разработку:</h3>
+			<ul class="about__list">
+				<li class="about__item">
+					Веб-сайтов любой сложности
+				</li>
+				<li class="about__item">
+					Мобильных приложений для iOS и Android
+				</li>
+				<li class="about__item">
+					Слайдшоу и видео для корпоративных презентаций
+				</li>
+			</ul>
+		</section>
+		<section class="advantages">
+			<h2 class="visually-hidden">Преимущества</h2>
+			<img class="advantages__logo-img" src="images/logo-2.png" width="360" height="208" alt="логотип преимуществ">
+			<h3 class="advantages__title">с 2004 года Любим точность во всем:</h3>
+			<ul class="advantages__list">
+				<li class="advantages__item">
+					<b class="advantages__item-percent">
+						146%
+					</b>
+					<p class="advantages__item-descr">
+						Уровень
+						самоотдачи
+					</p>
+				</li>
+				<li class="advantages__item">
+					<b class="advantages__item-percent">
+						100%
+					</b>
+					<p class="advantages__item-descr">
+						Соблюдение 
+						сроков
+					</p>
+				</li>
+				<li class="advantages__item">
+					<b class="advantages__item-percent">
+						50%
+					</b>
+					<p class="advantages__item-descr">
+						Минимальная
+						предоплата
+					</p>
+				</li>
+			</ul>
+		</section>
+
+		<section class="partners">
+			<h2 class="visually-hidden">Наши партнеры</h2>
+			<ul class="partners__list">
+				<li class="partners__item">
+					<img class="partners__img" src="images/partners-logo-1.png" width="199" height="68" alt="логотип партнёра 'html academy'">
+				</li>
+				<li class="partners__item">
+					<img class="partners__img" src="images/partners-logo-2.png" width="209" height="90" alt="логотип партнёра 'borodinski'">
+				</li>
+				<li class="partners__item">
+					<img class="partners__img" src="images/partners-logo-3.png" width="185" height="52" alt="логотип партнёра 'pink'">
+				</li>
+				<li class="partners__item">
+					<img class="partners__img" src="images/partners-logo-4.png" width="173" height="84" alt="логотип партнёра 'mishka'">
+				</li>
+			</ul>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<img class="map" src="images/map.jpg" width="1440" height="416" alt="Карта: Санкт-Петербург, улица Б. Конюшенная, дом 19/8">
+		<section class="footer__info">
+			<h2 class="footer__info-title">
+				NЁRDS DESIGN STUDIO
+			</h2>
+			<p class="footer__info-address">
+				191186, Санкт-Петербург, 
+				ул. Б. Конюшенная, д. 19/8
+			</p>
+			<p class="footer__info-tel">
+				тел. <a href="tel:78122757575">+7 (812) 275-75-75</a>
+			</p>
+			<a class="btn" href="#">Напишите нам</a>
+		</section>
+		<ul class="footer__social-networks">
+			<li class="footer__social-networks-item">
+				<a class="footer__social-networks-link" href="#">
+					<span class="visually-hidden">Вконтакте</span>
+				</a>
+			</li>
+			<li class="footer__social-networks-item">
+				<a class="footer__social-networks-link" href="#">
+					<span class="visually-hidden">Фейсбук</span>
+				</a>
+			</li>
+			<li class="footer__social-networks-item">
+				<a class="footer__social-networks-link" href="#">
+					<span class="visually-hidden">Инстаграм</span>
+				</a>
+			</li>
+		</ul>
+		<p class="footer__text">
+			<b class="footer__slogan">
+				Давайте дружить, это выгодно!
+			</b>
+			<span class="footer__descr">
+				Скидка 10% для друзей из социальных сетей.
+			</span>
+		</p>
+	</footer>
+
+	<!-- <section class="modal">
+		<h2 class="modal__title">
+			Напишите нам
+		</h2>
+		<form class="modal__form" action="#">
+			<p class="modal__form-item">
+				<label class="modal__label" for="name">Ваше имя:</label>
+				<input class="modal__input" id="name" type="text" name="name_surname" placeholder="Имя Фамилия">
+			</p>
+			<p class="modal__form-item">
+				<label class="modal__label" for="e-mail">Ваш e-mail:</label>
+				<input class="modal__input" id="e-mail" type="email" name="e-mail" placeholder="email@example.com">
+			</p>
+			<p>
+				<label for="textarea">Текст письма:</label>
+				<textarea class="modal__textarea" id="textarea" name="text" cols="30" rows="10" placeholder="В свободной форме"></textarea>
+			</p>
+			<button class="btn" type="submit">Отправить</button>
+		</form>
+	</section> -->
 
 	<script src="js/main.js"></script>
 </body>
