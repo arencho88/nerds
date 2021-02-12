@@ -40,5 +40,85 @@ html {
 }
 body {
 	font-family: 'Roboto', sans-serif;
-	
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: 400;
+	color: #283136;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+
+
+/* Главная страница ========================== */
+.header {
+	padding: 49px 0 18px;
+
+	background-color: #eee;
+}
+.header__nav {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+.logo {
+	margin-right: 200px;
+}
+.logo__img {
+	display: block;
+
+	width: 160px;
+	height: 65px;
+}
+.site-nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 440px;
+
+	margin: 19px 0 0;
+	padding: 0;
+
+	text-transform: uppercase;
+	list-style: none;
+}
+.site-nav__item {
+	font-weight: 700;
+	line-height: 30px;
+}
+.site-nav__link {
+	display: block;
+	padding: 8px 0;
+
+	color: #000;
+	text-decoration: none;
+}
+.user-nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	width: 200px;
+
+	padding: 0;
+	margin: 19px 0 0 auto;
+
+	list-style: none;
+}
+.user-nav__item {
+	margin: 0 0 0 15px;
+
+	font-weight: 700;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+.user-nav__link {
+	display: block;
+	padding: 8px 0;
+
+	color: #000;
+	text-decoration: none;
 }
